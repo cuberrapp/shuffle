@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cuberr Shuffler</title>
+    <script src='functions.js', type='text/javascript'></script>
+    <script src='jquery.js', type='text/javascript'></script>
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+<meta name="theme-color" content="#ffffff">
+  </head>
+  <body onload="dontLook()">
+    <img id="logo" class="display" src="cuberr-long-logo.png">
+    <img id="hidden-logo" src="cuberr-logo.png">
+    <h1 id="shuffle" class="display">Cube Shuffler</h1>
+    <div id="button" class="display" onclick="newShuffle(10)">Generate Shuffle</div>
+    <p id="description" class="display">Cuberr is (or will be) a free and powerful cube timer for iOS and Android.</p>
+    <i id="hint" class="display">Hint: You can get a shuffle with x length by typing newShuffle(x) into the console.</i>
+  </body>
+</html>
